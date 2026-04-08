@@ -6,7 +6,7 @@ public class FlightExamManager : MonoBehaviour
     [SerializeField] private TMP_Text statusText;
     [SerializeField] private TMP_Text missionText;
 
-    private bool hasTakenOff = false;
+    // private bool hasTakenOff = false; // Currently unused
     private bool threatCleared = false;
     private bool missionComplete = false;
 
